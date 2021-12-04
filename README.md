@@ -4,7 +4,7 @@
 
 1. [Download Wacom driver package](https://www.wacom.com/en-en/support/product-support/drivers) (e.g. WacomTablet_6.3.44-3.exe) to your project directory
 2. extract package using [7zip](https://www.7-zip.org/download.html) (look for Setup.exe)
-3. copy [`Install-Silently.ps1`](./Install-Silently.ps1) to `WacomTablet_6.3.44-3` directory
+3. Download [`Install-Silently.ps1`](https://raw.githubusercontent.com/BRG4-IT/intune-wacom-driver/main/Install-Silently.ps1) and copy to `WacomTablet_6.3.44-3` directory
 4. Download the [IntuneWinAppUtil](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool) Programm
 5. Move `IntuneWinAppUtil.exe` to the root of this repository
 6. Open a command prompt or Powershell console
